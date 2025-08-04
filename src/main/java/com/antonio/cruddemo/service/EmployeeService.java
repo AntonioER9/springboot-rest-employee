@@ -1,10 +1,10 @@
-package com.antonio.cruddemo.dao;
+package com.antonio.cruddemo.service;
 
 import java.util.List;
 
 import com.antonio.cruddemo.entity.Employee;
 
-public interface EmployeeDAO {
+public interface EmployeeService {
 
     List<Employee> findAll();
     
